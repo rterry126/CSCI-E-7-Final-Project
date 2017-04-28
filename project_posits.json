@@ -1,0 +1,1199 @@
+var positions =[
+  {
+    "name": "Glendon St at Condor St",
+    "y": -28.22,
+    "x": 64.32,
+    "ID": "216",
+    "Last Reported": 1493283634
+  },
+  {
+    "name": "Walnut Ave at Warren St",
+    "y": 85.4,
+    "x": -53.86,
+    "ID": "204",
+    "Last Reported": 1493283637
+  },
+  {
+    "name": "MLK Blvd at Washington St",
+    "y": 90.29,
+    "x": -72.65,
+    "ID": "197",
+    "Last Reported": 1493283645
+  },
+  {
+    "name": "Airport T Stop - Bremen",
+    "y": -14.27,
+    "x": 61.55,
+    "ID": "214",
+    "Last Reported": 1493283652
+  },
+  {
+    "name": "Chelsea St at Saratoga St",
+    "y": -22.89,
+    "x": 70.12,
+    "ID": "209",
+    "Last Reported": 1493283655
+  },
+  {
+    "name": "Upham's Corner",
+    "y": 98.62,
+    "x": -14.14,
+    "ID": "130",
+    "Last Reported": 1493283665
+  },
+  {
+    "name": "The Eddy - New St",
+    "y": -5.34,
+    "x": 32.89,
+    "ID": "215",
+    "Last Reported": 1493283668
+  },
+  {
+    "name": "Upham's Corner T Stop -",
+    "y": 95.59,
+    "x": -23.92,
+    "ID": "199",
+    "Last Reported": 1493283690
+  },
+  {
+    "name": "Bowdoin St at Quincy St",
+    "y": 119.88,
+    "x": -18.11,
+    "ID": "205",
+    "Last Reported": 1493283697
+  },
+  {
+    "name": "East Boston Neighborhood Health Center",
+    "y": -2.99,
+    "x": 43.49,
+    "ID": "213",
+    "Last Reported": 1493283719
+  },
+  {
+    "name": "Egleston Square - Atherton St",
+    "y": 101.71,
+    "x": -88.08,
+    "ID": "126",
+    "Last Reported": 1493283723
+  },
+  {
+    "name": "Dudley Square - Dudley St",
+    "y": 76.51,
+    "x": -56.0,
+    "ID": "56",
+    "Last Reported": 1493283725
+  },
+  {
+    "name": "Central Square - East Boston",
+    "y": -12.73,
+    "x": 45.83,
+    "ID": "219",
+    "Last Reported": 1493283725
+  },
+  {
+    "name": "Innovation Lab - 125 Western",
+    "y": 8.3,
+    "x": -145.7,
+    "ID": "29",
+    "Last Reported": 1493283729
+  },
+  {
+    "name": "Franklin Park - Seaver St",
+    "y": 113.17,
+    "x": -73.83,
+    "ID": "162",
+    "Last Reported": 1493283729
+  },
+  {
+    "name": "Brighton Mills - 370 Western",
+    "y": 12.31,
+    "x": -175.6,
+    "ID": "15",
+    "Last Reported": 1493283743
+  },
+  {
+    "name": "Bennington St at Byron St",
+    "y": -29.9,
+    "x": 95.29,
+    "ID": "210",
+    "Last Reported": 1493283746
+  },
+  {
+    "name": "Orient Heights T Stop -",
+    "y": -36.52,
+    "x": 117.56,
+    "ID": "217",
+    "Last Reported": 1493283748
+  },
+  {
+    "name": "Murphy Skating Rink - 1880",
+    "y": 61.35,
+    "x": 78.36,
+    "ID": "146",
+    "Last Reported": 1493283753
+  },
+  {
+    "name": "Columbia Rd at Ceylon St",
+    "y": 113.61,
+    "x": -30.89,
+    "ID": "203",
+    "Last Reported": 1493283760
+  },
+  {
+    "name": "Clarendon Hill at Broadway",
+    "y": -74.48,
+    "x": -163.21,
+    "ID": "112",
+    "Last Reported": 1493283762
+  },
+  {
+    "name": "JFK/UMass T Stop",
+    "y": 92.37,
+    "x": 17.51,
+    "ID": "93",
+    "Last Reported": 1493288077
+  },
+  {
+    "name": "Union Square - Somerville",
+    "y": -22.63,
+    "x": -80.71,
+    "ID": "78",
+    "Last Reported": 1493288326
+  },
+  {
+    "name": "Brian P. Murphy Staircase at",
+    "y": -7.89,
+    "x": -28.95,
+    "ID": "195",
+    "Last Reported": 1493288466
+  },
+  {
+    "name": "Hayes Square - Vine St",
+    "y": -17.54,
+    "x": 5.32,
+    "ID": "129",
+    "Last Reported": 1493290191
+  },
+  {
+    "name": "Lafayette Square at Mass Ave",
+    "y": 8.82,
+    "x": -92.38,
+    "ID": "75",
+    "Last Reported": 1493290659
+  },
+  {
+    "name": "Grove Hall Library - 41",
+    "y": 116.84,
+    "x": -48.78,
+    "ID": "202",
+    "Last Reported": 1493290722
+  },
+  {
+    "name": "B.U. Central - 725 Comm.",
+    "y": 34.21,
+    "x": -109.51,
+    "ID": "10",
+    "Last Reported": 1493291975
+  },
+  {
+    "name": "Piers Park",
+    "y": 6.12,
+    "x": 53.29,
+    "ID": "211",
+    "Last Reported": 1493292035
+  },
+  {
+    "name": "Congress St at Northern Ave",
+    "y": 38.69,
+    "x": 47.47,
+    "ID": "186",
+    "Last Reported": 1493292047
+  },
+  {
+    "name": "Maverick Square - Lewis Mall",
+    "y": -0.1,
+    "x": 41.09,
+    "ID": "212",
+    "Last Reported": 1493292172
+  },
+  {
+    "name": "Newmarket Square T Stop -",
+    "y": 80.5,
+    "x": -16.66,
+    "ID": "138",
+    "Last Reported": 1493292244
+  },
+  {
+    "name": "Franklin Park Zoo - Franklin",
+    "y": 125.48,
+    "x": -58.55,
+    "ID": "170",
+    "Last Reported": 1493292249
+  },
+  {
+    "name": "Union Square - Brighton Ave",
+    "y": 28.52,
+    "x": -174.03,
+    "ID": "8",
+    "Last Reported": 1493292251
+  },
+  {
+    "name": "Lesley University",
+    "y": -36.45,
+    "x": -133.38,
+    "ID": "176",
+    "Last Reported": 1493292307
+  },
+  {
+    "name": "NCAAA - Walnut Ave at",
+    "y": 99.36,
+    "x": -73.21,
+    "ID": "201",
+    "Last Reported": 1493292339
+  },
+  {
+    "name": "Boston Convention and Exhibition Center",
+    "y": 39.86,
+    "x": 33.11,
+    "ID": "65",
+    "Last Reported": 1493292417
+  },
+  {
+    "name": "S Huntington Ave at Heath",
+    "y": 77.83,
+    "x": -115.33,
+    "ID": "159",
+    "Last Reported": 1493292525
+  },
+  {
+    "name": "Commonwealth Ave at Buick St",
+    "y": 32.58,
+    "x": -125.86,
+    "ID": "9",
+    "Last Reported": 1493292658
+  },
+  {
+    "name": "Washington St at Melnea Cass",
+    "y": 68.41,
+    "x": -49.33,
+    "ID": "200",
+    "Last Reported": 1493292668
+  },
+  {
+    "name": "Alewife MBTA at Steel Place",
+    "y": -53.64,
+    "x": -185.79,
+    "ID": "183",
+    "Last Reported": 1493292726
+  },
+  {
+    "name": "Landmark Center - Brookline Ave",
+    "y": 46.84,
+    "x": -96.05,
+    "ID": "32",
+    "Last Reported": 1493292770
+  },
+  {
+    "name": "E Cottage St at Columbia",
+    "y": 92.24,
+    "x": -6.62,
+    "ID": "128",
+    "Last Reported": 1493293113
+  },
+  {
+    "name": "Charles Circle - Charles St",
+    "y": 13.93,
+    "x": -26.31,
+    "ID": "60",
+    "Last Reported": 1493293622
+  },
+  {
+    "name": "The Lawn on D",
+    "y": 45.13,
+    "x": 33.28,
+    "ID": "163",
+    "Last Reported": 1493293800
+  },
+  {
+    "name": "Third at Binney",
+    "y": 4.97,
+    "x": -52.83,
+    "ID": "185",
+    "Last Reported": 1493293811
+  },
+  {
+    "name": "Washington St at Brock St",
+    "y": 36.93,
+    "x": -225.36,
+    "ID": "174",
+    "Last Reported": 1493293845
+  },
+  {
+    "name": "Somerville City Hall",
+    "y": -36.64,
+    "x": -86.93,
+    "ID": "77",
+    "Last Reported": 1493293972
+  },
+  {
+    "name": "Packard Ave / Powderhouse Blvd",
+    "y": -70.95,
+    "x": -143.14,
+    "ID": "111",
+    "Last Reported": 1493293994
+  },
+  {
+    "name": "Ink Block - Harrison Ave",
+    "y": 42.97,
+    "x": -9.3,
+    "ID": "152",
+    "Last Reported": 1493294019
+  },
+  {
+    "name": "Stuart St at Charles St",
+    "y": 32.77,
+    "x": -16.2,
+    "ID": "49",
+    "Last Reported": 1493294069
+  },
+  {
+    "name": "Dorchester Ave at Gillette Park",
+    "y": 46.62,
+    "x": 4.32,
+    "ID": "63",
+    "Last Reported": 1493294074
+  },
+  {
+    "name": "HMS/HSPH - Avenue Louis Pasteur",
+    "y": 59.95,
+    "x": -97.33,
+    "ID": "14",
+    "Last Reported": 1493294127
+  },
+  {
+    "name": "Danehy Park",
+    "y": -40.77,
+    "x": -163.97,
+    "ID": "140",
+    "Last Reported": 1493294175
+  },
+  {
+    "name": "Chinatown Gate Plaza",
+    "y": 32.36,
+    "x": -0.82,
+    "ID": "59",
+    "Last Reported": 1493294198
+  },
+  {
+    "name": "Ryan Playground - Dorchester Ave",
+    "y": 97.92,
+    "x": 5.19,
+    "ID": "167",
+    "Last Reported": 1493294204
+  },
+  {
+    "name": "Brigham Circle - Francis St",
+    "y": 65.97,
+    "x": -102.71,
+    "ID": "30",
+    "Last Reported": 1493294260
+  },
+  {
+    "name": "Davis Square",
+    "y": -56.33,
+    "x": -142.28,
+    "ID": "100",
+    "Last Reported": 1493294267
+  },
+  {
+    "name": "Kendall Street",
+    "y": 8.63,
+    "x": -51.48,
+    "ID": "141",
+    "Last Reported": 1493294281
+  },
+  {
+    "name": "Beacon St at Massachusetts Ave",
+    "y": 33.35,
+    "x": -68.64,
+    "ID": "53",
+    "Last Reported": 1493294288
+  },
+  {
+    "name": "Harvard Kennedy School at Bennett",
+    "y": -7.76,
+    "x": -140.6,
+    "ID": "70",
+    "Last Reported": 1493294288
+  },
+  {
+    "name": "Rindge Avenue - O'Neill Library",
+    "y": -48.16,
+    "x": -155.65,
+    "ID": "145",
+    "Last Reported": 1493294294
+  },
+  {
+    "name": "Christian Science Plaza - Massachusetts",
+    "y": 46.93,
+    "x": -59.82,
+    "ID": "46",
+    "Last Reported": 1493294296
+  },
+  {
+    "name": "Washington St at Lenox St",
+    "y": 64.41,
+    "x": -44.66,
+    "ID": "51",
+    "Last Reported": 1493294302
+  },
+  {
+    "name": "Harvard University / SEAS Cruft-Pierce",
+    "y": -19.34,
+    "x": -128.59,
+    "ID": "108",
+    "Last Reported": 1493294452
+  },
+  {
+    "name": "Harvard Square at Brattle St",
+    "y": -10.17,
+    "x": -137.52,
+    "ID": "73",
+    "Last Reported": 1493294493
+  },
+  {
+    "name": "Main St at Austin St",
+    "y": -14.78,
+    "x": -12.46,
+    "ID": "94",
+    "Last Reported": 1493294498
+  },
+  {
+    "name": "EF - North Point Park",
+    "y": -3.67,
+    "x": -24.35,
+    "ID": "143",
+    "Last Reported": 1493294539
+  },
+  {
+    "name": "Binney St / Sixth St",
+    "y": 3.7,
+    "x": -60.86,
+    "ID": "117",
+    "Last Reported": 1493294550
+  },
+  {
+    "name": "Boylston St at Washington St",
+    "y": 30.32,
+    "x": -8.18,
+    "ID": "81",
+    "Last Reported": 1493294560
+  },
+  {
+    "name": "One Broadway / Kendall Sq",
+    "y": 10.47,
+    "x": -55.79,
+    "ID": "72",
+    "Last Reported": 1493294589
+  },
+  {
+    "name": "Seaport Square - Seaport Blvd",
+    "y": 32.66,
+    "x": 33.37,
+    "ID": "24",
+    "Last Reported": 1493294627
+  },
+  {
+    "name": "Harvard Law School at Mass",
+    "y": -21.41,
+    "x": -135.43,
+    "ID": "89",
+    "Last Reported": 1493294636
+  },
+  {
+    "name": "Alewife Station at Russell Field",
+    "y": -54.65,
+    "x": -178.8,
+    "ID": "142",
+    "Last Reported": 1493294641
+  },
+  {
+    "name": "South Boston Library - 646",
+    "y": 62.73,
+    "x": 44.96,
+    "ID": "119",
+    "Last Reported": 1493294703
+  },
+  {
+    "name": "Mt Auburn",
+    "y": -13.2,
+    "x": -164.89,
+    "ID": "180",
+    "Last Reported": 1493294704
+  },
+  {
+    "name": "Harvard University Gund Hall at",
+    "y": -16.27,
+    "x": -122.28,
+    "ID": "110",
+    "Last Reported": 1493294708
+  },
+  {
+    "name": "New Balance - 20 Guest",
+    "y": 20.61,
+    "x": -197.29,
+    "ID": "37",
+    "Last Reported": 1493294719
+  },
+  {
+    "name": "Tremont St at E Berkeley",
+    "y": 43.96,
+    "x": -23.59,
+    "ID": "4",
+    "Last Reported": 1493294731
+  },
+  {
+    "name": "Post Office Square - Pearl",
+    "y": 21.87,
+    "x": 7.98,
+    "ID": "48",
+    "Last Reported": 1493294737
+  },
+  {
+    "name": "Hyde Square - Barbara St",
+    "y": 91.39,
+    "x": -115.18,
+    "ID": "125",
+    "Last Reported": 1493294762
+  },
+  {
+    "name": "Washington St at Waltham St",
+    "y": 51.49,
+    "x": -22.05,
+    "ID": "26",
+    "Last Reported": 1493294847
+  },
+  {
+    "name": "Jackson Square T Stop",
+    "y": 87.63,
+    "x": -91.43,
+    "ID": "131",
+    "Last Reported": 1493294853
+  },
+  {
+    "name": "Cambridge St at Joy St",
+    "y": 13.27,
+    "x": -13.65,
+    "ID": "6",
+    "Last Reported": 1493294857
+  },
+  {
+    "name": "Lower Cambridgeport at Magazine St/Riverside",
+    "y": 21.48,
+    "x": -121.53,
+    "ID": "105",
+    "Last Reported": 1493294870
+  },
+  {
+    "name": "Allston Green District - Griggs",
+    "y": 37.71,
+    "x": -166.69,
+    "ID": "66",
+    "Last Reported": 1493294872
+  },
+  {
+    "name": "Wilson Square",
+    "y": -34.19,
+    "x": -120.76,
+    "ID": "99",
+    "Last Reported": 1493294968
+  },
+  {
+    "name": "Harvard University Housing - 115",
+    "y": 2.68,
+    "x": -122.7,
+    "ID": "87",
+    "Last Reported": 1493294983
+  },
+  {
+    "name": "MIT at Mass Ave /",
+    "y": 19.25,
+    "x": -76.0,
+    "ID": "67",
+    "Last Reported": 1493295001
+  },
+  {
+    "name": "Cambridge Main Library at Broadway",
+    "y": -10.46,
+    "x": -115.72,
+    "ID": "96",
+    "Last Reported": 1493295014
+  },
+  {
+    "name": "Magoun Square at Trum Field",
+    "y": -59.04,
+    "x": -108.48,
+    "ID": "137",
+    "Last Reported": 1493295027
+  },
+  {
+    "name": "Boston Medical Center - E",
+    "y": 61.37,
+    "x": -31.31,
+    "ID": "13",
+    "Last Reported": 1493295068
+  },
+  {
+    "name": "Linear Park - Mass. Ave.",
+    "y": -58.0,
+    "x": -158.92,
+    "ID": "118",
+    "Last Reported": 1493295103
+  },
+  {
+    "name": "Soldiers Field Park - 111",
+    "y": 5.71,
+    "x": -133.85,
+    "ID": "17",
+    "Last Reported": 1493295118
+  },
+  {
+    "name": "University Park",
+    "y": 10.41,
+    "x": -91.25,
+    "ID": "177",
+    "Last Reported": 1493295118
+  },
+  {
+    "name": "175 N Harvard St",
+    "y": 8.17,
+    "x": -155.92,
+    "ID": "149",
+    "Last Reported": 1493295121
+  },
+  {
+    "name": "W Broadway at D St",
+    "y": 56.18,
+    "x": 16.79,
+    "ID": "161",
+    "Last Reported": 1493295123
+  },
+  {
+    "name": "Northeastern University - North Parking",
+    "y": 50.92,
+    "x": -69.29,
+    "ID": "5",
+    "Last Reported": 1493295134
+  },
+  {
+    "name": "Andrew T Stop - Dorchester",
+    "y": 72.5,
+    "x": 4.35,
+    "ID": "113",
+    "Last Reported": 1493295136
+  },
+  {
+    "name": "Packard's Corner - Commonwealth Ave",
+    "y": 30.6,
+    "x": -144.07,
+    "ID": "41",
+    "Last Reported": 1493295164
+  },
+  {
+    "name": "Broadway St at Mt Pleasant",
+    "y": -35.27,
+    "x": -42.85,
+    "ID": "194",
+    "Last Reported": 1493295173
+  },
+  {
+    "name": "Savin Hill T Stop -",
+    "y": 111.61,
+    "x": 11.33,
+    "ID": "173",
+    "Last Reported": 1493295180
+  },
+  {
+    "name": "Congress St at North St",
+    "y": 14.36,
+    "x": 3.44,
+    "ID": "44",
+    "Last Reported": 1493295188
+  },
+  {
+    "name": "Harvard University River Houses at",
+    "y": -2.31,
+    "x": -129.2,
+    "ID": "97",
+    "Last Reported": 1493295206
+  },
+  {
+    "name": "Edwards Playground - Main St",
+    "y": -21.32,
+    "x": -21.35,
+    "ID": "169",
+    "Last Reported": 1493295217
+  },
+  {
+    "name": "Nashua Street at Red Auerbach",
+    "y": 4.52,
+    "x": -11.7,
+    "ID": "190",
+    "Last Reported": 1493295254
+  },
+  {
+    "name": "Roxbury Crossing T Stop -",
+    "y": 71.59,
+    "x": -80.38,
+    "ID": "27",
+    "Last Reported": 1493295262
+  },
+  {
+    "name": "Ruggles T Stop - Columbus",
+    "y": 62.4,
+    "x": -65.55,
+    "ID": "12",
+    "Last Reported": 1493295266
+  },
+  {
+    "name": "State Street at Channel Center",
+    "y": 46.4,
+    "x": 14.2,
+    "ID": "150",
+    "Last Reported": 1493295269
+  },
+  {
+    "name": "Wentworth Institute of Technology -",
+    "y": 59.12,
+    "x": -83.09,
+    "ID": "160",
+    "Last Reported": 1493295273
+  },
+  {
+    "name": "Washington St at Rutland St",
+    "y": 57.33,
+    "x": -33.42,
+    "ID": "39",
+    "Last Reported": 1493295276
+  },
+  {
+    "name": "Central Square at Mass Ave",
+    "y": 5.7,
+    "x": -98.0,
+    "ID": "68",
+    "Last Reported": 1493295284
+  },
+  {
+    "name": "Fan Pier",
+    "y": 28.61,
+    "x": 32.47,
+    "ID": "7",
+    "Last Reported": 1493295290
+  },
+  {
+    "name": "Porter Square Station",
+    "y": -38.88,
+    "x": -133.52,
+    "ID": "115",
+    "Last Reported": 1493295291
+  },
+  {
+    "name": "Newbury St at Hereford St",
+    "y": 37.49,
+    "x": -59.9,
+    "ID": "52",
+    "Last Reported": 1493295298
+  },
+  {
+    "name": "Roxbury YMCA - Warren St",
+    "y": 97.42,
+    "x": -52.56,
+    "ID": "196",
+    "Last Reported": 1493295306
+  },
+  {
+    "name": "Dana Park",
+    "y": 12.09,
+    "x": -109.11,
+    "ID": "139",
+    "Last Reported": 1493295307
+  },
+  {
+    "name": "Congress St at Sleeper St",
+    "y": 32.86,
+    "x": 20.89,
+    "ID": "64",
+    "Last Reported": 1493295309
+  },
+  {
+    "name": "ID Building East",
+    "y": 45.06,
+    "x": 67.41,
+    "ID": "135",
+    "Last Reported": 1493295319
+  },
+  {
+    "name": "Purchase St at Pearl St",
+    "y": 25.94,
+    "x": 12.93,
+    "ID": "192",
+    "Last Reported": 1493295323
+  },
+  {
+    "name": "Arch St at Franklin St",
+    "y": 24.5,
+    "x": 2.03,
+    "ID": "35",
+    "Last Reported": 1493295331
+  },
+  {
+    "name": "Prudential Center - Belvedere St",
+    "y": 42.86,
+    "x": -52.4,
+    "ID": "21",
+    "Last Reported": 1493295342
+  },
+  {
+    "name": "Park Dr at Buswell St",
+    "y": 40.36,
+    "x": -102.89,
+    "ID": "19",
+    "Last Reported": 1493295365
+  },
+  {
+    "name": "Charles st and Beacon St",
+    "y": 23.23,
+    "x": -24.11,
+    "ID": "120",
+    "Last Reported": 1493295369
+  },
+  {
+    "name": "Cross St at Hanover St",
+    "y": 10.09,
+    "x": 6.52,
+    "ID": "47",
+    "Last Reported": 1493295370
+  },
+  {
+    "name": "Tremont St at West St",
+    "y": 25.32,
+    "x": -9.66,
+    "ID": "54",
+    "Last Reported": 1493295372
+  },
+  {
+    "name": "Copley Square - Dartmouth St",
+    "y": 35.45,
+    "x": -40.73,
+    "ID": "36",
+    "Last Reported": 1493295391
+  },
+  {
+    "name": "Kenmore Square",
+    "y": 37.52,
+    "x": -84.46,
+    "ID": "33",
+    "Last Reported": 1493295392
+  },
+  {
+    "name": "ID Building West",
+    "y": 45.12,
+    "x": 60.86,
+    "ID": "136",
+    "Last Reported": 1493295394
+  },
+  {
+    "name": "Boylston St at Massachusetts Ave",
+    "y": 40.32,
+    "x": -64.64,
+    "ID": "55",
+    "Last Reported": 1493295397
+  },
+  {
+    "name": "Conway Park - Somerville Avenue",
+    "y": -29.95,
+    "x": -107.98,
+    "ID": "71",
+    "Last Reported": 1493295397
+  },
+  {
+    "name": "Aquarium T Stop - 200",
+    "y": 16.0,
+    "x": 16.44,
+    "ID": "20",
+    "Last Reported": 1493295402
+  },
+  {
+    "name": "TD Garden - West End",
+    "y": 4.0,
+    "x": -12.33,
+    "ID": "109",
+    "Last Reported": 1493295402
+  },
+  {
+    "name": "Seaport Hotel - Congress St",
+    "y": 37.27,
+    "x": 38.34,
+    "ID": "31",
+    "Last Reported": 1493295408
+  },
+  {
+    "name": "Boylston St at Fairfield St",
+    "y": 37.41,
+    "x": -51.96,
+    "ID": "61",
+    "Last Reported": 1493295442
+  },
+  {
+    "name": "Brighton Center - Washington St",
+    "y": 37.04,
+    "x": -202.83,
+    "ID": "175",
+    "Last Reported": 1493295444
+  },
+  {
+    "name": "Kendall T",
+    "y": 10.83,
+    "x": -57.68,
+    "ID": "189",
+    "Last Reported": 1493295468
+  },
+  {
+    "name": "Central Sq Post Office /",
+    "y": 3.06,
+    "x": -103.32,
+    "ID": "76",
+    "Last Reported": 1493295483
+  },
+  {
+    "name": "One Kendall Square at Hampshire",
+    "y": 3.35,
+    "x": -72.64,
+    "ID": "91",
+    "Last Reported": 1493295486
+  },
+  {
+    "name": "Longwood Ave at Binney St",
+    "y": 57.11,
+    "x": -105.56,
+    "ID": "11",
+    "Last Reported": 1493295490
+  },
+  {
+    "name": "359 Broadway - Broadway at",
+    "y": -5.45,
+    "x": -100.92,
+    "ID": "116",
+    "Last Reported": 1493295492
+  },
+  {
+    "name": "Boston City Hall - 28",
+    "y": 17.66,
+    "x": 3.05,
+    "ID": "23",
+    "Last Reported": 1493295495
+  },
+  {
+    "name": "Yawkey Way at Boylston St.",
+    "y": 45.29,
+    "x": -85.59,
+    "ID": "45",
+    "Last Reported": 1493295497
+  },
+  {
+    "name": "CambridgeSide Galleria - CambridgeSide PL",
+    "y": 1.98,
+    "x": -38.83,
+    "ID": "84",
+    "Last Reported": 1493295497
+  },
+  {
+    "name": "Warren St at Chelsea St",
+    "y": -7.48,
+    "x": -2.87,
+    "ID": "98",
+    "Last Reported": 1493295501
+  },
+  {
+    "name": "Curtis Hall - South St",
+    "y": 114.62,
+    "x": -125.4,
+    "ID": "124",
+    "Last Reported": 1493295511
+  },
+  {
+    "name": "Spaulding Rehabilitation Hospital - Charlestown",
+    "y": -20.1,
+    "x": 22.38,
+    "ID": "85",
+    "Last Reported": 1493295512
+  },
+  {
+    "name": "Sidney Research Campus/ Erie Street",
+    "y": 19.92,
+    "x": -99.85,
+    "ID": "184",
+    "Last Reported": 1493295528
+  },
+  {
+    "name": "Colleges of the Fenway -",
+    "y": 54.4,
+    "x": -92.92,
+    "ID": "3",
+    "Last Reported": 1493295534
+  },
+  {
+    "name": "Harvard Square at Mass Ave/",
+    "y": -10.24,
+    "x": -132.4,
+    "ID": "74",
+    "Last Reported": 1493295534
+  },
+  {
+    "name": "Lechmere Station at Cambridge St",
+    "y": -5.21,
+    "x": -38.95,
+    "ID": "90",
+    "Last Reported": 1493295536
+  },
+  {
+    "name": "Green Street T Stop -",
+    "y": 111.65,
+    "x": -107.42,
+    "ID": "133",
+    "Last Reported": 1493295536
+  },
+  {
+    "name": "MIT Vassar St",
+    "y": 24.11,
+    "x": -99.88,
+    "ID": "179",
+    "Last Reported": 1493295543
+  },
+  {
+    "name": "Bunker Hill Community College",
+    "y": -11.84,
+    "x": -22.36,
+    "ID": "171",
+    "Last Reported": 1493295547
+  },
+  {
+    "name": "Rowes Wharf at Atlantic Ave",
+    "y": 21.11,
+    "x": 18.45,
+    "ID": "43",
+    "Last Reported": 1493295549
+  },
+  {
+    "name": "Surface Rd at India St",
+    "y": 19.14,
+    "x": 15.19,
+    "ID": "151",
+    "Last Reported": 1493295550
+  },
+  {
+    "name": "Beacon St at Washington /",
+    "y": -20.26,
+    "x": -103.71,
+    "ID": "79",
+    "Last Reported": 1493295552
+  },
+  {
+    "name": "Ames St at Main St",
+    "y": 10.69,
+    "x": -64.93,
+    "ID": "107",
+    "Last Reported": 1493295570
+  },
+  {
+    "name": "W Broadway at Dorchester St",
+    "y": 62.82,
+    "x": 29.2,
+    "ID": "121",
+    "Last Reported": 1493295571
+  },
+  {
+    "name": "Burlington Ave at Brookline Ave",
+    "y": 43.3,
+    "x": -92.65,
+    "ID": "122",
+    "Last Reported": 1493295573
+  },
+  {
+    "name": "South End Library - Tremont",
+    "y": 51.85,
+    "x": -39.66,
+    "ID": "25",
+    "Last Reported": 1493295585
+  },
+  {
+    "name": "Back Bay T Stop -",
+    "y": 38.74,
+    "x": -39.04,
+    "ID": "16",
+    "Last Reported": 1493295592
+  },
+  {
+    "name": "Cambridge St - at Columbia",
+    "y": -9.66,
+    "x": -78.77,
+    "ID": "95",
+    "Last Reported": 1493295594
+  },
+  {
+    "name": "MIT Stata Center at Vassar",
+    "y": 11.74,
+    "x": -73.45,
+    "ID": "80",
+    "Last Reported": 1493295604
+  },
+  {
+    "name": "South Station - 700 Atlantic",
+    "y": 30.77,
+    "x": 7.67,
+    "ID": "22",
+    "Last Reported": 1493295605
+  },
+  {
+    "name": "MIT Pacific St at Purrington",
+    "y": 16.39,
+    "x": -93.99,
+    "ID": "178",
+    "Last Reported": 1493295609
+  },
+  {
+    "name": "Boylston St at Dartmouth St",
+    "y": 34.2,
+    "x": -39.0,
+    "ID": "134",
+    "Last Reported": 1493295619
+  },
+  {
+    "name": "Powder House Circle - Nathan",
+    "y": -63.93,
+    "x": -128.38,
+    "ID": "102",
+    "Last Reported": 1493295620
+  },
+  {
+    "name": "Harvard University Radcliffe Quadrangle at",
+    "y": -23.89,
+    "x": -146.9,
+    "ID": "104",
+    "Last Reported": 1493295626
+  },
+  {
+    "name": "Inman Square at Vellucci Plaza",
+    "y": -11.73,
+    "x": -94.28,
+    "ID": "88",
+    "Last Reported": 1493295637
+  },
+  {
+    "name": "Beacon St at Arlington St",
+    "y": 24.12,
+    "x": -30.62,
+    "ID": "58",
+    "Last Reported": 1493295638
+  }
+]

@@ -1,0 +1,322 @@
+var data =[
+  {
+    "Bikes Available": 2,
+    "name": "Beacon St at Arlington St",
+    "color": "red",
+    "Total Activity": 1,
+    "ID": "58",
+    "Updated": "Thu Apr 27 08:20:42 2017"
+  },
+  {
+    "Bikes Available": 0,
+    "name": "Roxbury Crossing T Stop -",
+    "color": "red",
+    "Total Activity": 1,
+    "ID": "27",
+    "Updated": "Thu Apr 27 08:20:45 2017"
+  },
+  {
+    "Bikes Available": 6,
+    "name": "Harvard University Gund Hall at",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "110",
+    "Updated": "Thu Apr 27 08:20:48 2017"
+  },
+  {
+    "Bikes Available": 8,
+    "name": "Washington St at Rutland St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "39",
+    "Updated": "Thu Apr 27 08:20:51 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Central Square at Mass Ave",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "68",
+    "Updated": "Thu Apr 27 08:20:57 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "359 Broadway - Broadway at",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "116",
+    "Updated": "Thu Apr 27 08:20:57 2017"
+  },
+  {
+    "Bikes Available": 4,
+    "name": "Upham's Corner",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "130",
+    "Updated": "Thu Apr 27 08:21:04 2017"
+  },
+  {
+    "Bikes Available": 2,
+    "name": "Back Bay T Stop -",
+    "color": "red",
+    "Total Activity": 1,
+    "ID": "16",
+    "Updated": "Thu Apr 27 08:21:05 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Commonwealth Ave at Buick St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "9",
+    "Updated": "Thu Apr 27 08:21:09 2017"
+  },
+  {
+    "Bikes Available": 6,
+    "name": "Surface Rd at India St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "151",
+    "Updated": "Thu Apr 27 08:21:13 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Boylston St at Fairfield St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "61",
+    "Updated": "Thu Apr 27 08:21:14 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "One Broadway / Kendall Sq",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "72",
+    "Updated": "Thu Apr 27 08:21:15 2017"
+  },
+  {
+    "Bikes Available": 5,
+    "name": "MIT at Mass Ave /",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "67",
+    "Updated": "Thu Apr 27 08:21:18 2017"
+  },
+  {
+    "Bikes Available": 5,
+    "name": "Powder House Circle - Nathan",
+    "color": "yellow",
+    "Total Activity": 2,
+    "ID": "102",
+    "Updated": "Thu Apr 27 08:21:19 2017"
+  },
+  {
+    "Bikes Available": 3,
+    "name": "Cambridge St - at Columbia",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "95",
+    "Updated": "Thu Apr 27 08:21:29 2017"
+  },
+  {
+    "Bikes Available": 1,
+    "name": "Back Bay T Stop -",
+    "color": "red",
+    "Total Activity": 2,
+    "ID": "16",
+    "Updated": "Thu Apr 27 08:21:32 2017"
+  },
+  {
+    "Bikes Available": 12,
+    "name": "Inman Square at Vellucci Plaza",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "88",
+    "Updated": "Thu Apr 27 08:21:43 2017"
+  },
+  {
+    "Bikes Available": 5,
+    "name": "Dudley Square - Dudley St",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "56",
+    "Updated": "Thu Apr 27 08:21:49 2017"
+  },
+  {
+    "Bikes Available": 3,
+    "name": "Kenmore Square",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "33",
+    "Updated": "Thu Apr 27 08:21:50 2017"
+  },
+  {
+    "Bikes Available": 9,
+    "name": "Boylston St at Dartmouth St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "134",
+    "Updated": "Thu Apr 27 08:21:50 2017"
+  },
+  {
+    "Bikes Available": 2,
+    "name": "Kenmore Square",
+    "color": "red",
+    "Total Activity": 2,
+    "ID": "33",
+    "Updated": "Thu Apr 27 08:21:54 2017"
+  },
+  {
+    "Bikes Available": 4,
+    "name": "Tremont St at West St",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "54",
+    "Updated": "Thu Apr 27 08:21:55 2017"
+  },
+  {
+    "Bikes Available": 38,
+    "name": "South Station - 700 Atlantic",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "22",
+    "Updated": "Thu Apr 27 08:21:56 2017"
+  },
+  {
+    "Bikes Available": 8,
+    "name": "Boylston St at Dartmouth St",
+    "color": "green",
+    "Total Activity": 2,
+    "ID": "134",
+    "Updated": "Thu Apr 27 08:21:58 2017"
+  },
+  {
+    "Bikes Available": 5,
+    "name": "Prudential Center - Belvedere St",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "21",
+    "Updated": "Thu Apr 27 08:22:02 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Washington St at Melnea Cass",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "200",
+    "Updated": "Thu Apr 27 08:22:03 2017"
+  },
+  {
+    "Bikes Available": 14,
+    "name": "Congress St at Sleeper St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "64",
+    "Updated": "Thu Apr 27 08:22:05 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "The Lawn on D",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "163",
+    "Updated": "Thu Apr 27 08:22:14 2017"
+  },
+  {
+    "Bikes Available": 9,
+    "name": "Fan Pier",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "7",
+    "Updated": "Thu Apr 27 08:22:18 2017"
+  },
+  {
+    "Bikes Available": 5,
+    "name": "ID Building East",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "135",
+    "Updated": "Thu Apr 27 08:22:18 2017"
+  },
+  {
+    "Bikes Available": 12,
+    "name": "Post Office Square - Pearl",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "48",
+    "Updated": "Thu Apr 27 08:22:20 2017"
+  },
+  {
+    "Bikes Available": 4,
+    "name": "Harvard Square at Brattle St",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "73",
+    "Updated": "Thu Apr 27 08:22:20 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Union Square - Somerville",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "78",
+    "Updated": "Thu Apr 27 08:22:21 2017"
+  },
+  {
+    "Bikes Available": 9,
+    "name": "E Cottage St at Columbia",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "128",
+    "Updated": "Thu Apr 27 08:22:25 2017"
+  },
+  {
+    "Bikes Available": 7,
+    "name": "Powder House Circle - Nathan",
+    "color": "green",
+    "Total Activity": 4,
+    "ID": "102",
+    "Updated": "Thu Apr 27 08:22:29 2017"
+  },
+  {
+    "Bikes Available": 10,
+    "name": "Seaport Hotel - Congress St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "31",
+    "Updated": "Thu Apr 27 08:22:30 2017"
+  },
+  {
+    "Bikes Available": 13,
+    "name": "Post Office Square - Pearl",
+    "color": "green",
+    "Total Activity": 2,
+    "ID": "48",
+    "Updated": "Thu Apr 27 08:22:40 2017"
+  },
+  {
+    "Bikes Available": 8,
+    "name": "Cambridge St at Joy St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "6",
+    "Updated": "Thu Apr 27 08:22:48 2017"
+  },
+  {
+    "Bikes Available": 4,
+    "name": "Clarendon Hill at Broadway",
+    "color": "yellow",
+    "Total Activity": 1,
+    "ID": "112",
+    "Updated": "Thu Apr 27 08:22:50 2017"
+  },
+  {
+    "Bikes Available": 6,
+    "name": "175 N Harvard St",
+    "color": "green",
+    "Total Activity": 1,
+    "ID": "149",
+    "Updated": "Thu Apr 27 08:22:51 2017"
+  }
+]
