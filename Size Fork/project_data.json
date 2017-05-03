@@ -1,0 +1,555 @@
+var data =[
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:44:33 2017",
+    "name": "Packard's Corner - Commonwealth Ave",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:42:00 2017",
+    "name": "Inman Square at Vellucci Plaza",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 9,
+    "Updated": "Tue May  2 17:44:15 2017",
+    "name": "Cambridge St at Joy St",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:40:26 2017",
+    "name": "Dorchester Ave at Gillette Park",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 10,
+    "Updated": "Tue May  2 17:39:30 2017",
+    "name": "Harvard Square at Mass Ave/",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:41:38 2017",
+    "name": "Commonwealth Ave at Buick St",
+    "color": "green",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:44:44 2017",
+    "name": "Central Square at Mass Ave",
+    "color": "green",
+    "Total Activity": 5
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:39:04 2017",
+    "name": "Lafayette Square at Mass Ave",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 3,
+    "Updated": "Tue May  2 17:39:47 2017",
+    "name": "Conway Park - Somerville Avenue",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 11,
+    "Updated": "Tue May  2 17:44:34 2017",
+    "name": "Cambridge St - at Columbia",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:43:31 2017",
+    "name": "Davis Square",
+    "color": "green",
+    "Total Activity": 4
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:39:47 2017",
+    "name": "Rowes Wharf at Atlantic Ave",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:42:48 2017",
+    "name": "Colleges of the Fenway -",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:43:14 2017",
+    "name": "Cambridge Main Library at Broadway",
+    "color": "green",
+    "Total Activity": 4
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:40:11 2017",
+    "name": "Harvard University Gund Hall at",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:44:15 2017",
+    "name": "Post Office Square - Pearl",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:40:08 2017",
+    "name": "S Huntington Ave at Heath",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:39:44 2017",
+    "name": "Brian P. Murphy Staircase at",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:41:52 2017",
+    "name": "Newbury St at Hereford St",
+    "color": "yellow",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 7,
+    "Updated": "Tue May  2 17:44:31 2017",
+    "name": "W Broadway at Dorchester St",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:44:21 2017",
+    "name": "South End Library - Tremont",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:44:14 2017",
+    "name": "Porter Square Station",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 13,
+    "Updated": "Tue May  2 17:42:32 2017",
+    "name": "MIT at Mass Ave /",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 9,
+    "Updated": "Tue May  2 17:43:51 2017",
+    "name": "Cross St at Hanover St",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 10,
+    "Updated": "Tue May  2 17:41:52 2017",
+    "name": "Union Square - Brighton Ave",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:43:21 2017",
+    "name": "Tremont St at E Berkeley",
+    "color": "green",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:43:44 2017",
+    "name": "Ink Block - Harrison Ave",
+    "color": "green",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:38:43 2017",
+    "name": "Washington St at Waltham St",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 0,
+    "Updated": "Tue May  2 17:38:51 2017",
+    "name": "Boylston St at Washington St",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:40:36 2017",
+    "name": "Boston Convention and Exhibition Center",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:44:19 2017",
+    "name": "Back Bay T Stop -",
+    "color": "green",
+    "Total Activity": 6
+  },
+  {
+    "Bikes Available": 3,
+    "Updated": "Tue May  2 17:44:34 2017",
+    "name": "CambridgeSide Galleria - CambridgeSide PL",
+    "color": "yellow",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 17,
+    "Updated": "Tue May  2 17:40:52 2017",
+    "name": "Jackson Square T Stop",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 10,
+    "Updated": "Tue May  2 17:43:09 2017",
+    "name": "EF - North Point Park",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:43:43 2017",
+    "name": "Boston City Hall - 28",
+    "color": "yellow",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 3,
+    "Updated": "Tue May  2 17:42:45 2017",
+    "name": "Chinatown Gate Plaza",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:41:06 2017",
+    "name": "South Boston Library - 646",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 10,
+    "Updated": "Tue May  2 17:39:49 2017",
+    "name": "Main St at Austin St",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 0,
+    "Updated": "Tue May  2 17:41:17 2017",
+    "name": "MIT Stata Center at Vassar",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:43:06 2017",
+    "name": "The Lawn on D",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 11,
+    "Updated": "Tue May  2 17:41:49 2017",
+    "name": "Linear Park - Mass. Ave.",
+    "color": "green",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:41:20 2017",
+    "name": "Northeastern University - North Parking",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 9,
+    "Updated": "Tue May  2 17:39:47 2017",
+    "name": "Spaulding Rehabilitation Hospital - Charlestown",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:44:37 2017",
+    "name": "Landmark Center - Brookline Ave",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:40:37 2017",
+    "name": "University Park",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:44:05 2017",
+    "name": "Copley Square - Dartmouth St",
+    "color": "green",
+    "Total Activity": 4
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:44:32 2017",
+    "name": "Congress St at Sleeper St",
+    "color": "yellow",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:40:38 2017",
+    "name": "Purchase St at Pearl St",
+    "color": "yellow",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 2,
+    "Updated": "Tue May  2 17:40:21 2017",
+    "name": "Sidney Research Campus/ Erie Street",
+    "color": "red",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 7,
+    "Updated": "Tue May  2 17:44:24 2017",
+    "name": "Christian Science Plaza - Massachusetts",
+    "color": "green",
+    "Total Activity": 6
+  },
+  {
+    "Bikes Available": 9,
+    "Updated": "Tue May  2 17:42:06 2017",
+    "name": "Surface Rd at India St",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:40:40 2017",
+    "name": "HMS/HSPH - Avenue Louis Pasteur",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:44:42 2017",
+    "name": "Boylston St at Massachusetts Ave",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 18,
+    "Updated": "Tue May  2 17:44:35 2017",
+    "name": "W Broadway at D St",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 5,
+    "Updated": "Tue May  2 17:42:32 2017",
+    "name": "Rindge Avenue - O'Neill Library",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:44:15 2017",
+    "name": "Park Dr at Buswell St",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 15,
+    "Updated": "Tue May  2 17:43:12 2017",
+    "name": "Piers Park",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:40:25 2017",
+    "name": "Kenmore Square",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 7,
+    "Updated": "Tue May  2 17:38:57 2017",
+    "name": "Lower Cambridgeport at Magazine St/Riverside",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 3,
+    "Updated": "Tue May  2 17:40:19 2017",
+    "name": "Ames St at Main St",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 0,
+    "Updated": "Tue May  2 17:42:30 2017",
+    "name": "Binney St / Sixth St",
+    "color": "red",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:44:14 2017",
+    "name": "Murphy Skating Rink - 1880",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:44:44 2017",
+    "name": "One Kendall Square at Hampshire",
+    "color": "green",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:43:15 2017",
+    "name": "Allston Green District - Griggs",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 15,
+    "Updated": "Tue May  2 17:40:10 2017",
+    "name": "Harvard Law School at Mass",
+    "color": "green",
+    "Total Activity": 3
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:41:57 2017",
+    "name": "Central Sq Post Office /",
+    "color": "red",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 14,
+    "Updated": "Tue May  2 17:43:16 2017",
+    "name": "TD Garden - West End",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:41:13 2017",
+    "name": "Charles Circle - Charles St",
+    "color": "red",
+    "Total Activity": 2
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:41:19 2017",
+    "name": "Green Street T Stop -",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 1,
+    "Updated": "Tue May  2 17:39:24 2017",
+    "name": "Seaport Hotel - Congress St",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 13,
+    "Updated": "Tue May  2 17:44:31 2017",
+    "name": "Harvard Kennedy School at Bennett",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:41:49 2017",
+    "name": "MIT Vassar St",
+    "color": "yellow",
+    "Total Activity": 4
+  },
+  {
+    "Bikes Available": 12,
+    "Updated": "Tue May  2 17:44:33 2017",
+    "name": "Nashua Street at Red Auerbach",
+    "color": "green",
+    "Total Activity": 9
+  },
+  {
+    "Bikes Available": 8,
+    "Updated": "Tue May  2 17:42:51 2017",
+    "name": "Dana Park",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 4,
+    "Updated": "Tue May  2 17:39:10 2017",
+    "name": "The Eddy - New St",
+    "color": "yellow",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 13,
+    "Updated": "Tue May  2 17:41:44 2017",
+    "name": "Union Square - Somerville",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 6,
+    "Updated": "Tue May  2 17:41:57 2017",
+    "name": "Burlington Ave at Brookline Ave",
+    "color": "green",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 0,
+    "Updated": "Tue May  2 17:40:50 2017",
+    "name": "Boylston St at Arlington St",
+    "color": "red",
+    "Total Activity": 1
+  },
+  {
+    "Bikes Available": 0,
+    "Updated": "Tue May  2 17:40:38 2017",
+    "name": "Tremont St at West St",
+    "color": "red",
+    "Total Activity": 2
+  }
+]
